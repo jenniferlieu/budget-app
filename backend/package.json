@@ -1,0 +1,25 @@
+{
+  "name": "envylope-backend",
+  "version": "1.0.0",
+  "description": "The Node.js and Express backend for Envylope Budgeting web app, providing a RESTful API for accounts, envelopes, and transactions.",
+  "main": "server.js",
+  "type": "module",
+  "prisma": {
+    "client": {
+      "generatorType": "esm"
+    }
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^5.15.0"
+  }
+}
